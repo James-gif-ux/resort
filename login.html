@@ -247,11 +247,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         id="password" aria-label="password" placeholder="Password" required>
                 </div>
                 <button class="btn btn-secondary btn-user btn-block">Login</button>
-                <?php if(isset($msg)): ?>
-                <div class="error-message">
-                    <?php echo htmlspecialchars($msg); ?>
-                </div>
-            <?php endif; ?>
+              
             </form>
         </div>
     </div>
